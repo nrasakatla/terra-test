@@ -7,7 +7,7 @@ provider "aws" {
  #    ami = lookup(var.imagename, var.aws_region)
       ami = "ami-05548f9cecf47b442"
      #ami = "${data.aws_ami.my_ami.id}"
-     availability_zone = "us-east-1a"
+     availability_zone = "us-east-1c"
      instance_type = "t2.micro"
      key_name = "test"
      subnet_id = "subnet-0efff4566b0db3baa"
