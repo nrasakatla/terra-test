@@ -1,4 +1,6 @@
-
+provider "aws" {
+    region = "us-east-1"
+}
  resource "aws_instance" "web-1" {
  #    count = 2
  #    count = var.environment == "dev" || var.environment == "DEV" ? 2 : 1
