@@ -12,8 +12,8 @@
      vpc_security_group_ids = "sg-048191993af284de6"
      associate_public_ip_address = true
      tags = {
-         environment = dev
-         Name = "Server-1-${count.index +1}"
+         environment = "dev"
+         Name = "Server-1"
          Env = "Prod"
          Owner = "Sree"
        CostCenter = "ABCD-EFG"
