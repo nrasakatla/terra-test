@@ -9,7 +9,7 @@
      instance_type = "t2.micro"
      key_name = "test"
      subnet_id = "subnet-0efff4566b0db3baa"
-     vpc_security_group_ids = "sg-048191993af284de6"
+     security_groups = "sg-048191993af284de6"
      associate_public_ip_address = true
      tags = {
          environment = "dev"
